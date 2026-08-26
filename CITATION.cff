@@ -6,9 +6,9 @@ title: "EMOBON nf-core/mag workflows"
 type: software
 
 authors:
-  - family-names: "Morais"
-    given-names: "Daniel Kumazawa"
-    orcid: "https://orcid.org/YOUR-ORCID"
+  - family-names: "Kumazawa Morais"
+    given-names: "Daniel"
+    orcid: "https://orcid.org/0000-0003-3328-7848"
 
 repository-code: "https://github.com/bioinfo-arctic/nf-core-mags_emobon_stations"
 
