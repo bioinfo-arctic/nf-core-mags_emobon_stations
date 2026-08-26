@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this workflow, please cite it using the metadata below."
+
+title: "EMOBON nf-core/mag workflows"
+
+type: software
+
+authors:
+  - family-names: "Morais"
+    given-names: "Daniel Kumazawa"
+    orcid: "https://orcid.org/YOUR-ORCID"
+
+repository-code: "https://github.com/bioinfo-arctic/nf-core-mags_emobon_stations"
+
+abstract: >
+  Reproducible workflows, configurations, troubleshooting documentation,
+  and downstream analyses for processing European Marine Omics
+  Biodiversity Observation Network (EMOBON) metagenomic samples using
+  nf-core/mag.
+
+keywords:
+  - EMOBON
+  - metagenomics
+  - MAGs
+  - nf-core
+  - nf-core/mag
+  - marine genomics
+  - bioinformatics
+
+license: MIT
