@@ -1,5 +1,9 @@
 # EMOBON nf-core/mag workflows
 
+[![DOI](https://zenodo.org/badge/1347081933.svg)](https://doi.org/10.5281/zenodo.22111009)
+
+Reproducible workflows, configurations, troubleshooting notes...
+
 This repository documents the processing and analysis of EMOBON metagenomic samples using **nf-core/mag**. It serves as a reproducible record of the workflow, including pipeline configurations, commands, computational decisions, troubleshooting, and downstream analyses of metagenome-assembled genomes (MAGs).
 
 The repository is intended both as a working record of the analyses and as a resource for collaborators who need to understand, reproduce, or extend the EMOBON MAG workflow.
@@ -44,8 +48,7 @@ nextflow run nf-core/mag \
     --skip_semibin \
     --skip_maxbin2 \
     --skip_gtdbtk \
-    --megahit_options "--k-list 29,39,59,79,99,119,141" \
-    -resume
+    --megahit_options "--k-list 29,39,59,79,99,119,141" 
 ```
 
 ### Important modifications from the default workflow
